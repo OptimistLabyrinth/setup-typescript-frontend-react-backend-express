@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-02-frontend-react-backend-express",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "start": "npm-run-all -s -l frontend-build backend-run",
+    "frontend-build": "npm run --prefix frontend build",
+    "backend-run": "npm run --prefix backend start",
+    "frontend-dev-server": "npm run --prefix frontend start"
+  }
+}
