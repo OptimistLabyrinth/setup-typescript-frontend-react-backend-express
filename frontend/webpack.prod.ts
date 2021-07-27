@@ -75,7 +75,6 @@ export default {
     new ForkTsCheckerWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: path.join(ROOT, 'public/index.html'),
-      title: '✨ React App ⚡',
       favicon: path.join(ROOT, 'public/favicon.ico')
     }),
     new MiniCssExtractPlugin({

@@ -2,10 +2,9 @@ import dotenv from 'dotenv'
 import debug from 'debug'
 import http from 'http'
 import App from './App'
-import { AddressInfo } from 'net'
 dotenv.config()
 
-const port = normalizePort(process.env.PORT, 3000)
+const port = normalizePort(process.env.PORT, 4000)
 App.set('port', port)
 
 /**
