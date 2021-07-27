@@ -7,6 +7,9 @@
     "npm-run-all": "^4.1.5"
   },
   "scripts": {
+    "install-all": "npm-run-all -s -l frontend-install backend-install",
+    "frontend-install": "npm install --prefix frontend",
+    "backend-install": "npm install --prefix backend",
     "start": "npm-run-all -s -l frontend-build backend-run",
     "frontend-build": "npm run --prefix frontend build",
     "backend-run": "npm run --prefix backend start",

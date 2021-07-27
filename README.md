@@ -18,6 +18,8 @@ git clone this repository and move into the project root directory
 ```shell
 $ git clone https://github.com/OptimistLabyrinth/setup-typescript-frontend-react-backend-express.git
 $ cd setup-typescript-frontend-react-backend-express
+$ npm install
+$ npm run install-all
 $ npm start
 ```
 
@@ -39,6 +41,8 @@ if you want to edit frontend only, then move into the 'frontend' folder and star
 
 ```shell
 $ cd setup-typescript-frontend-react-backend-express
+$ npm install
+$ npm run frontend-install
 $ npm run frontend-dev-server
 ```
 
